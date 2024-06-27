@@ -1,0 +1,4 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Amy	NA	Reichenbach	EDI/SPU to confirm	EDI/SPU to confirm	EDI/SPU to confirm	creator	EDI/SPU to confirm	EDI/SPU to confirm	EDI/SPU to confirm
+Amy	NA	Reichenbach	EDI/SPU to confirm	EDI/SPU to confirm	EDI/SPU to confirm	contact	EDI/SPU to confirm	EDI/SPU to confirm	EDI/SPU to confirm
+Amy	NA	Reichenbach	EDI/SPU to confirm	EDI/SPU to confirm	EDI/SPU to confirm	publisher	EDI/SPU to confirm	EDI/SPU to confirm	EDI/SPU to confirm
