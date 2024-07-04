@@ -1,0 +1,141 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SORT_MASTER	Sequentially ordered records for the purposes of data loading or other grouping.	numeric	dimensionless	NA	-999	Missing value
+METHOD	The method/protocol that describes the survey/program, which is typically a detailed document explaining exactly how to collect or analyze the data.	character	NA	NA	-999	Missing value
+YEARSITE_ID	A conjugate of ""SURVEY YEAR"", ""SITE NO"", and if applicable, ""<DECIMAL>"" and ""OTHER NUMBER OR TEXT (SUCH AS CROSS SECTION NUMBER OR ""ALL"")"", ie for LTAM, 20062.1 refers to Sample Year 2006, Site 2, and Cross Section 1; and 200621 refers to Sample Year 2006 and Site Number 21. Note that if the site does not have other number or text to append, the value will equal ""YEAR SITE IDENTIFIER"".	character	NA	NA	-999	Missing value
+YRSITE_ABBR	A conjugate of ""YEAR OF DATA COLLECTION"" and ""SITE NO"". Note that other number or cross section number is not included, ie. 200621 refers to Sample Year 2006 and Site Number 21.	numeric	dimensionless	NA	-999	Missing value
+USER_NAME	The user name as downloaded from Pendragon Forms or other electronic form. Also, ""999"" refers to not applicable; and ""-999"" refers to data that is required but is missing.	character	NA	NA	-999	Missing value
+HYD_TMEST_24HR	Date or Date and Time for when the data was collected. Loaded as text due to SIMS displaying Timestamps as numbers and not dates. Has no affect on export; exported as general and not text.	Date	NA	MM/DD/YYYY hh:mm:ss	-999	Missing value
+SITENO	Numerical value that has been assigned to the site, whereas the same site number is used for repeat surveys.	numeric	dimensionless	NA	-999	Missing value
+STRM_NAME_SH	Give the abbreviated/shortened stream name of the site that is being surveyed (ie for Rock Creek it would be ""Rock""; and for North Fork Cedar River, it would be ""NFC"").	character	NA	NA	-999	Missing value
+OBSERVERS	The names or initials of each person who participated in the survey.	character	NA	NA	-999	Missing value
+XSEC_NO	A number that identifies the cross section, whereas the cross sections are typically (but not always) numbered sequentially starting from the most downstream end of the site.	numeric	dimensionless	NA	-999	Missing value
+CHTYPE_PEBBL	A description of number and types of channels present at the pebble count location, ie. “main ch”, “side ch”, “other”, etc.Also, ""999"" refers to not applicable; and ""-999"" refers to data that is required but is missing.	character	NA	NA	-999	Missing value
+NOPARTCLS_REC	The number of particles per record counted for a particular cross section or location. There might be more than one record per cross section if the data was collected on different days or if there were two recorders.	numeric	dimensionless	NA	-999	Missing value
+COMMENTS	Free form text for interesting or unusual sightings, problems, or issues.	character	NA	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_1	Pebble B-Axis Length (mm) 1	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_2	Pebble B-Axis Length (mm) 2	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_3	Pebble B-Axis Length (mm) 3	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_4	Pebble B-Axis Length (mm) 4	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_5	Pebble B-Axis Length (mm) 5	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_6	Pebble B-Axis Length (mm) 6	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_7	Pebble B-Axis Length (mm) 7	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_8	Pebble B-Axis Length (mm) 8	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_9	Pebble B-Axis Length (mm) 9	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_10	Pebble B-Axis Length (mm) 10	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_11	Pebble B-Axis Length (mm) 11	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_12	Pebble B-Axis Length (mm) 12	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_13	Pebble B-Axis Length (mm) 13	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_14	Pebble B-Axis Length (mm) 14	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_15	Pebble B-Axis Length (mm) 15	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_16	Pebble B-Axis Length (mm) 16	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_17	Pebble B-Axis Length (mm) 17	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_18	Pebble B-Axis Length (mm) 18	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_19	Pebble B-Axis Length (mm) 19	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_20	Pebble B-Axis Length (mm) 20	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_21	Pebble B-Axis Length (mm) 21	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_22	Pebble B-Axis Length (mm) 22	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_23	Pebble B-Axis Length (mm) 23	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_24	Pebble B-Axis Length (mm) 24	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_25	Pebble B-Axis Length (mm) 25	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_26	Pebble B-Axis Length (mm) 26	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_27	Pebble B-Axis Length (mm) 27	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_28	Pebble B-Axis Length (mm) 28	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_29	Pebble B-Axis Length (mm) 29	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_30	Pebble B-Axis Length (mm) 30	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_31	Pebble B-Axis Length (mm) 31	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_32	Pebble B-Axis Length (mm) 32	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_33	Pebble B-Axis Length (mm) 33	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_34	Pebble B-Axis Length (mm) 34	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_35	Pebble B-Axis Length (mm) 35	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_36	Pebble B-Axis Length (mm) 36	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_37	Pebble B-Axis Length (mm) 37	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_38	Pebble B-Axis Length (mm) 38	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_39	Pebble B-Axis Length (mm) 39	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_40	Pebble B-Axis Length (mm) 40	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_41	Pebble B-Axis Length (mm) 41	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_42	Pebble B-Axis Length (mm) 42	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_43	Pebble B-Axis Length (mm) 43	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_44	Pebble B-Axis Length (mm) 44	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_45	Pebble B-Axis Length (mm) 45	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_46	Pebble B-Axis Length (mm) 46	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_47	Pebble B-Axis Length (mm) 47	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_48	Pebble B-Axis Length (mm) 48	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_49	Pebble B-Axis Length (mm) 49	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_50	Pebble B-Axis Length (mm) 50	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_51	Pebble B-Axis Length (mm) 51	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_52	Pebble B-Axis Length (mm) 52	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_53	Pebble B-Axis Length (mm) 53	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_54	Pebble B-Axis Length (mm) 54	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_55	Pebble B-Axis Length (mm) 55	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_56	Pebble B-Axis Length (mm) 56	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_57	Pebble B-Axis Length (mm) 57	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_58	Pebble B-Axis Length (mm) 58	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_59	Pebble B-Axis Length (mm) 59	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_60	Pebble B-Axis Length (mm) 60	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_61	Pebble B-Axis Length (mm) 61	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_62	Pebble B-Axis Length (mm) 62	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_63	Pebble B-Axis Length (mm) 63	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_64	Pebble B-Axis Length (mm) 64	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_65	Pebble B-Axis Length (mm) 65	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_66	Pebble B-Axis Length (mm) 66	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_67	Pebble B-Axis Length (mm) 67	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_68	Pebble B-Axis Length (mm) 68	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_69	Pebble B-Axis Length (mm) 69	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_70	Pebble B-Axis Length (mm) 70	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_71	Pebble B-Axis Length (mm) 71	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_72	Pebble B-Axis Length (mm) 72	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_73	Pebble B-Axis Length (mm) 73	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_74	Pebble B-Axis Length (mm) 74	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_75	Pebble B-Axis Length (mm) 75	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_76	Pebble B-Axis Length (mm) 76	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_77	Pebble B-Axis Length (mm) 77	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_78	Pebble B-Axis Length (mm) 78	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_79	Pebble B-Axis Length (mm) 79	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_80	Pebble B-Axis Length (mm) 80	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_81	Pebble B-Axis Length (mm) 81	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_82	Pebble B-Axis Length (mm) 82	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_83	Pebble B-Axis Length (mm) 83	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_84	Pebble B-Axis Length (mm) 84	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_85	Pebble B-Axis Length (mm) 85	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_86	Pebble B-Axis Length (mm) 86	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_87	Pebble B-Axis Length (mm) 87	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_88	Pebble B-Axis Length (mm) 88	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_89	Pebble B-Axis Length (mm) 89	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_90	Pebble B-Axis Length (mm) 90	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_91	Pebble B-Axis Length (mm) 91	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_92	Pebble B-Axis Length (mm) 92	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_93	Pebble B-Axis Length (mm) 93	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_94	Pebble B-Axis Length (mm) 94	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_95	Pebble B-Axis Length (mm) 95	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_96	Pebble B-Axis Length (mm) 96	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_97	Pebble B-Axis Length (mm) 97	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_98	Pebble B-Axis Length (mm) 98	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_99	Pebble B-Axis Length (mm) 99	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_100	Pebble B-Axis Length (mm) 100	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_101	Pebble B-Axis Length (mm) 101	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_102	Pebble B-Axis Length (mm) 102	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_103	Pebble B-Axis Length (mm) 103	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_104	Pebble B-Axis Length (mm) 104	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_105	Pebble B-Axis Length (mm) 105	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_106	Pebble B-Axis Length (mm) 106	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_107	Pebble B-Axis Length (mm) 107	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_108	Pebble B-Axis Length (mm) 108	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_109	Pebble B-Axis Length (mm) 109	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_110	Pebble B-Axis Length (mm) 110	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_111	Pebble B-Axis Length (mm) 111	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_112	Pebble B-Axis Length (mm) 112	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_113	Pebble B-Axis Length (mm) 113	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_114	Pebble B-Axis Length (mm) 114	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_115	Pebble B-Axis Length (mm) 115	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_116	Pebble B-Axis Length (mm) 116	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_117	Pebble B-Axis Length (mm) 117	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_118	Pebble B-Axis Length (mm) 118	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_119	Pebble B-Axis Length (mm) 119	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_120	Pebble B-Axis Length (mm) 120	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_121	Pebble B-Axis Length (mm) 121	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_122	Pebble B-Axis Length (mm) 122	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_123	Pebble B-Axis Length (mm) 123	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_124	Pebble B-Axis Length (mm) 124	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_125	Pebble B-Axis Length (mm) 125	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_126	Pebble B-Axis Length (mm) 126	numeric	millimeter	NA	-999	Missing value
+Pebble_B_Axis_Length_mm_127	Pebble B-Axis Length (mm) 127	numeric	millimeter	NA	-999	Missing value

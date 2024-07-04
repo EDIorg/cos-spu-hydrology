@@ -1,0 +1,41 @@
+attributeName	code	definition
+F_D16_NA	bedrock	>= 4096 mm
+F_D16_NA	coarse gravel	>= 16 mm and < 32 mm
+F_D16_NA	fine gravel	>= 4 mm and < 8 mm
+F_D16_NA	medium gravel	>= 8 mm and < 16 mm
+F_D16_NA	sand/silt/clay	< 2 mm
+F_D16_NA	small cobble	>= 64 mm and < 128 mm
+F_D16_NA	very coarse gravel	>= 32 mm and < 64 mm
+F_D16_NA	very fine gravel	>= 2 mm and < 4 mm
+F_D50_NA	coarse gravel	>= 16 mm and < 32 mm
+F_D50_NA	fine gravel	>= 4 mm and < 8 mm
+F_D50_NA	large cobble	>= 128 mm and < 256 mm
+F_D50_NA	medium gravel	>= 8 mm and < 16 mm
+F_D50_NA	sand/silt/clay	< 2 mm
+F_D50_NA	small cobble	>= 64 mm and < 128 mm
+F_D50_NA	very coarse gravel	>= 32 mm and < 64 mm
+F_D50_NA	very fine gravel	>= 2 mm and < 4 mm
+F_D84_NA	coarse gravel	>= 16 mm and < 32 mm
+F_D84_NA	fine gravel	>= 4 mm and < 8 mm
+F_D84_NA	large cobble	>= 128 mm and < 256 mm
+F_D84_NA	medium boulder	>= 512 mm and < 1024 mm
+F_D84_NA	medium gravel	>= 8 mm and < 16 mm
+F_D84_NA	small boulder	>= 256 mm and < 512 mm
+F_D84_NA	small cobble	>= 64 mm and < 128 mm
+F_D84_NA	very coarse gravel	>= 32 mm and < 64 mm
+T1_PVRS_SIG	No	The condition is No.
+T1_PVRS_SIG	Yes	The condition is Yes.
+T1_PVUSFSSIG	No	The condition is No.
+T1_PVUSFSSIG	Yes	The condition is Yes.
+T2_PVRS_SIG	No	The condition is No.
+T2_PVRS_SIG	Yes	The condition is Yes.
+T2_PVUSFSSIG	No	The condition is No.
+T2_PVUSFSSIG	Yes	The condition is Yes.
+T3_PVRS_SIG	No	The condition is No.
+T3_PVRS_SIG	Yes	The condition is Yes.
+T3_PVUSFSSIG	No	The condition is No.
+T3_PVUSFSSIG	Yes	The condition is Yes.
+T4_PVRS_SIG	No	The condition is No.
+T4_PVRS_SIG	Yes	The condition is Yes.
+T4_PVUSFSSIG	No	The condition is No.
+T4_PVUSFSSIG	Yes	The condition is Yes.
