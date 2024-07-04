@@ -1,0 +1,5 @@
+# Don't commit data
+**/data
+
+# MacOS
+.DS_Store
