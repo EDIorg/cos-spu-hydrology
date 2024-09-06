@@ -34,3 +34,9 @@ colnames(working) <- short_names$`ATTRIBUTE CODE`
 
 write_csv(summary, "./data/processed/SIMS_LTAMPebbleCount_Summary.csv")
 write_csv(working, "./data/processed/SIMS_LTAMPebbleCount_Working.csv") 
+# Ensure changes to the raw otherEntity are copied over to the processed dir
+file.copy( 
+  "./data/raw/SIMS_LTAMPebbleCount_GraphsTables.xlsx", 
+  "./data/processed/SIMS_LTAMPebbleCount_GraphsTables.xlsx", 
+  overwrite = TRUE
+)

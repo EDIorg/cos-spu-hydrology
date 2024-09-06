@@ -35,4 +35,4 @@ EMLassemblyline::make_eml(
   other.entity.description = c("Excel workbook that has the analysis for pebble count data (graphs, tables, formulas, and statistics). The workbook contains conditional formatting. This file will be useful if the data steward wants to replicate the analysis in the future."),
   user.id = "EDI",
   user.domain = "EDI", 
-  package.id = "cos-spu.108.2")
+  package.id = "cos-spu.108.3")
